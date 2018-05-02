@@ -4,7 +4,7 @@
 
 ## 目录命名
 
-`<Paradigm>/<问题>/<数据>/<算法>-<框架>-<其他>.ipynb`
+`<Paradigm>/<Model>/<Dataset>/<Trainer>-<Framework>-<Other>.ipynb`
 
 ## 环境准备
 

@@ -32,7 +32,7 @@ class DataLoader(object):
         return images, labels
     
     @classmethod
-    def show_images(self, images):
+    def show_images(self,images):
         n = images.shape[0]
         _, plts = plt.subplots(1,n,figsize=(15,15))
         for i in range(n):
@@ -42,9 +42,6 @@ class DataLoader(object):
         plt.show()
 
     @classmethod
-    def get_labels(self, label):
-        text_labels = [
-            't-shirt', 'trouser', 'pullover', 'dress,', 'coat',
-            'sandal', 'shirt', 'sneaker', 'bag', 'ankle boot'
-        ]
+    def get_labels(self,label):
+        text_labels = [0,1,2,3,4,5,6,7,8,9]
         return [[text_labels[i]] for i in label]

@@ -18,6 +18,7 @@
 * ML.DL Framework
     * Tensorflow
     * Caffe2 & Pytorch
+        * https://pytorch.org/
     * MXNet & gluon
         * 无GPU： `pip install mxnet`
         * 有GPU且安装了CUDA： `pip install mxnet-cu<xx>` // xx 为 CUDA 的版本

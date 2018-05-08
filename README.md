@@ -4,7 +4,7 @@
 
 ## 目录命名
 
-`<Paradigm>/<Model>/<Dataset>/<Trainer>-<Framework>-<Other>.ipynb`
+`<Paradigm>/<Dataset>/<Framework>-<Algorithm>-<Other>.ipynb`
 
 ## 环境准备
 
@@ -17,10 +17,10 @@
     * `jupyter contrib nbextension install --sys-prefix`
 * ML.DL Framework
     * Tensorflow
+        * `pip install tensorflow` or `pip install tensorflow-gpu`
     * Caffe2 & Pytorch
         * https://pytorch.org/
     * MXNet & gluon
-        * 无GPU： `pip install mxnet`
-        * 有GPU且安装了CUDA： `pip install mxnet-cu<xx>` // xx 为 CUDA 的版本
+        * `pip install mxnet` or `pip install mxnet-cu<xx>` // xx 为 CUDA 的版本: 80,90,91
 * GO 
     * `jupyter notebook`

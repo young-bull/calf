@@ -4,7 +4,7 @@
 
 ## 目录命名
 
-`<Paradigm>/<Dataset>/<Framework>-<Algorithm>-<Other>.ipynb`
+`<Dataset-Paradigm>/<Framework>-<Model/Net.Algorithm>.ipynb`
 
 ## 环境准备
 

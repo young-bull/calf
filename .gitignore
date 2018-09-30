@@ -1,2 +1,6 @@
+.vim*
 .ipynb_*
 __pycache__
+*.params*
+tips
+*submission*
